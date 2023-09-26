@@ -7,6 +7,11 @@ docker build -t backend_flask ./backend_flask
 docker build -t backend_flask:latest ./backend_flask
 ```````
 
+export HONEYCOMB_API_KEY="Gz3tcQv5FlVbzC9wTkdX5C"
+export HONEYCOMB_SERVICE_NAME="Cruddur"
+gp env HONEYCOMB_API_KEY="Gz3tcQv5FlVbzC9wTkdX5C"
+gp env HONEYCOMB_SERVICE_NAME="Cruddur"
+
 - Application: Cruddur
 - Cohort: 2023-A1
 
